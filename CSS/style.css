@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Top Bar stuff */
+
+.wrapper{
+    background-color: whitesmoke;
+    overflow: hidden;
+
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-area{
+    float: right;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: darkslategray;
+    padding: 5px 20px;
+    font-size: 1.6rem;
+}
+.nav-area li a:hover{
+    color: grey;
+    transition: all ease 0.2s;
+}
+
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+
+.page-Heading{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-Heading h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+/* Footer */
+
+.foote{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    color: black;
+}
+
+.foote h4{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.footeContainer{
+    max-width: 60vw;
+    margin: auto;
+    padding: 70px 0;
+}
+
+.foote-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foote-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.foote-col a{
+    font-size: 1rem;
+    color: darkslategray;
+    margin-bottom: 10px;
+}
+.foote-col a:hover{
+    color: gray;
+    transition: all ease 0.2s;
+}
+
+/* Back to top functionality */
+
+.to-Top{
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #1f1f1f; 
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.to-Top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
