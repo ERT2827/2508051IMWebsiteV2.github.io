@@ -226,7 +226,7 @@ const blogTexts = [
     },{
         id: 14,
         title: "Final Conclusion, Leg 2",
-        text: `</p>So, the second leg of the assignment is done. It was awful.</p><p>
+        text: `<p>So, the second leg of the assignment is done. It was awful.</p><p>
 
         The first major problem was my assignment 1 mark. I felt sick when I first saw it, and things didn’t get better from there. My assignment 2 was mediocre, and it took ages to get the situation with my assignment 1 mark sorted. Now that I have, I’m able to at least breathe a little, but I’m still stressed about this assignment. </p><p>
         
