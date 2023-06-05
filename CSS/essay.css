@@ -50,6 +50,8 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+    padding-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .essay-text{
@@ -84,13 +86,54 @@
     margin: 20px 0px;
 }
 
-.essay-text a{
+.essay-text h3{
     color: darkslategray;
+    cursor: pointer;
+    font-size: 0.9rem;
 }
 
-.essay-text a:hover{
+.essay-text h3:hover{
     color: grey;
     transition: all ease 0.2s;
+}
+
+.full-Text{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    z-index: 100;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+.full-Text span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.fullTextDisplay{
+    background-color: whitesmoke;
+    max-width: 80vw;    
+    padding-top: 1rem;
+    height: fit-content;
+    padding-bottom: 1rem;
+}
+
+.fullTextDisplay p {
+    margin-top: 0.5rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 1.2rem;
+    
 }
 
 @media(max-width:1250px){

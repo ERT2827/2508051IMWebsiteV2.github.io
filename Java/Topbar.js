@@ -37,6 +37,20 @@ function displayTopBar(pageses){
     topBarArea.innerHTML = displayTopBar;
 }
 
+//sidebar
+
+const sideBarArea = document.getElementById("sideChick");
+
+displaySideBar(pageLinks);
+
+function displaySideBar(pageses) {
+    let displaySideBar = pageses.map(function (pageses){
+        return `<li><a href="${pageses.location}">${pageses.text}</a></li>`;
+      }).join(" ");
+
+      sideBarArea.innerHTML = displaySideBar;
+}
+
 // Back to top functionality
 
 const toTop = document.querySelector(".to-Top");

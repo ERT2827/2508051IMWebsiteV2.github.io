@@ -132,7 +132,7 @@ if(filename == "design.html"){
 
 
 function displayGallery(galleryItems){
-    let displayGallery = galleryItems.map(function (galleryItem){
+    var displayGallery = galleryItems.map(function (galleryItem){
       return `<div class="galleryitem">
         <img src="${galleryItem.img}" alt="" onclick="OpenFull(this.src)">
         <div class="desc font italic">${galleryItem.desc}</div></div>`;
