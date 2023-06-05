@@ -110,6 +110,11 @@ body{
     transition: all ease 0.2s;
 }
 
+.Bazana{
+    width: 55px;
+    height: auto;
+}
+
 /* Back to top functionality */
 
 .to-Top{
