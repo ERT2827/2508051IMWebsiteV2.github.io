@@ -29,6 +29,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 6;
 }
 
 .nav-area{
@@ -88,20 +89,21 @@ body{
 }
 
 .foote-row{
-    display: flex;
+    display: inline-flex;
     flex-wrap: nowrap;
+    flex-direction: column;
 }
 
 .foote-col{
-    width: 25%;
+    width: 30%;
     padding: 0 15px;
 }
 
-.foote-col a{
+.foote-col ul li a{
     font-size: 1rem;
     color: darkslategray;
     margin-bottom: 10px;
-    padding-top: 2rem;
+    padding-top: 0.5px;
 }
 .foote-col a:hover{
     color: gray;

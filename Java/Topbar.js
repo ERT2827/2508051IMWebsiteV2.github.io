@@ -30,7 +30,7 @@ const topBarArea = document.querySelector(".nav-area");
 displayTopBar(pageLinks);
 
 function displayTopBar(pageses){
-    let displayTopBar = pageses.map(function (pageses){
+    var displayTopBar = pageses.map(function (pageses){
         return `<li><a href="${pageses.location}">${pageses.text}</a></li>`;
       }).join(" ");
 
@@ -46,6 +46,21 @@ displaySideBar(pageLinks);
 function displaySideBar(pageses) {
     let displaySideBar = pageses.map(function (pageses){
         return `<li><a href="${pageses.location}">${pageses.text}</a></li>`;
+      }).join(" ");
+
+      sideBarArea.innerHTML = displaySideBar;
+}
+
+//footer (this function is currently unused until I update my 
+//footer design)
+
+const footerArea = document.getElementById("Mort");
+
+DisplayFooter(pageLinks);
+
+function DisplayFooter(pageses) {
+    var displaySideBar = pageses.map(function (pageses){
+        return ``;
       }).join(" ");
 
       sideBarArea.innerHTML = displaySideBar;

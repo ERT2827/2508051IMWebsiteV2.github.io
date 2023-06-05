@@ -57,7 +57,15 @@ const portfolioIMG = [
         id: 14,
         img: "images/Portfolio/20508051_Bruce_WSOA2023Assignment2.png",
         desc: `Another classic from the first DAP game, this time the ideal screenshot. `,
-    },]
+    },{
+        id: 15,
+        img: "images/Page 3.jpg",
+        desc: `Here's a little concept page from an idea I was working on. `,
+    },{
+        id: 16,
+        img: "images/Portfolio/Fourtown.jpg",
+        desc: `This is an updated version of the DnD party drawing that I did for item 11. `,
+    }]
 
 const designIMG = [
     {
@@ -100,6 +108,38 @@ const designIMG = [
         id: 10,
         img: "images/Design/2nd Y frame.jpeg",
         desc: `A slightly more in depth pen and paper wireframe. Only a few ideas from this made it to the final product, but it was an important part of the planning process regardless. `,
+    },{
+        id: 11,
+        img: "images/Design/Wireframes_page-0001.jpg",
+        desc: `A later pen and paper wireframe. This pair were from when I was going to restart. `,
+    },{
+        id: 12,
+        img: "images/Design/Wireframes2_page-0001.jpg",
+        desc: `I never ended up doing that, but some of the ideas did make it in. `,
+    },{
+        id: 13,
+        img: "images/Design/Palette.png",
+        desc: `My color palette. `,
+    },{
+        id: 14,
+        img: "images/Design/Home.png",
+        desc: `An annotated outline of the home page. `,
+    },{
+        id: 15,
+        img: "images/Design/Portfolio.png",
+        desc: `An annotated outline of the portfolio page. `,
+    },{
+        id: 16,
+        img: "images/Design/Blog+Essay.png",
+        desc: `An annotated outline of the Blog and Essay pages, which saw the biggest overhaul. `,
+    },{
+        id: 17,
+        img: "images/Design/Design.png",
+        desc: `An annotated outline of the Design page. `,
+    },{
+        id: 18,
+        img: "images/Design/Profile.png",
+        desc: `An annotated outline of the Profile page. I'm still not great at wireframes, but I'm certainly getting better. `,
     },
 ]
 

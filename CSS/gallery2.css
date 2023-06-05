@@ -44,7 +44,7 @@
 .full-Image p{
     padding-top: 9px;
     font-size: 1.2rem;
-    color: aliceblue;
+    color: whitesmoke;
     font-style: italic;
     font-weight: 500;
     
@@ -54,7 +54,7 @@
     position: absolute;
     top: 5%;
     right: 5%;
-    color: aliceblue;
+    color: whitesmoke;
     font-size: 2.5rem;
     cursor: pointer;
 }
