@@ -45,7 +45,7 @@ displaySideBar(pageLinks);
 
 function displaySideBar(pageses) {
     console.log("Bornana");
-    let displaySideBar = pageses.map(function (pageses){
+    var displaySideBar = pageses.map(function (pageses){
         return `<li><a href="${pageses.location}">${pageses.text}</a></li>`;
       }).join(" ");
 

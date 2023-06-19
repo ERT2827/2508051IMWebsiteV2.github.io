@@ -85,7 +85,7 @@ const blogTexts = [
     },{
         id: 1,
         title: "Week 2",
-        text: `<p>My main focus this week was on the website itself, since I did a lot of readings last week. I got started, and built a small prototype using some resources I found online to give me a bit of guidance, but to be honest, it was disorientating.<br><br>
+        text: `<p>My main focus this week was on the website itself, since I did a lot of readings last week. I got started, and built a small prototype using some resources I found online to give me a bit of guidance, but to be honest, it was disorientating.</p><p>
 
         Because of the protests, I missed the Wednesday class last week, and even though I know that Wednesday is largely theoretical, it still felt like I had missed something important. But I didn't let that slow me down too much in the end, and so I got to work trying to build a basic prototype. That process really had me feeling what someone -Kieran, I think- said about how scary it is to do something with no direction. All the endless possibilities stretched out before me, and I had to decide what to do with them.</p><p>
         
@@ -284,7 +284,7 @@ if(filename == "essays.html"){
 
 function CreateTextEssay(essayItems){
     var CreateTextEssay = essayItems.map(function (essayItem){
-      return `<div class="essay-container">
+      return `<article class="essay-container">
 
       <div class="essay-box">
           <div class="essay-img">
@@ -298,7 +298,7 @@ function CreateTextEssay(essayItems){
           <h3 onclick="OpenFull(${essayItem.id})">Read More </h3>
       </div>
 
-  </div>`;
+  </article>`;
     }).join("");
   
     textArea.innerHTML = CreateTextEssay;
@@ -306,13 +306,13 @@ function CreateTextEssay(essayItems){
 
   function CreateTextBlog(blogItems){
     var CreateTextBlog = blogItems.map(function (blogItem){
-      return `<div class="grid-item ${blogItem.color}">
+      return `<article class="grid-item ${blogItem.color}">
       <h2 class="post-heading">${blogItem.title}</h2>
       <div class="post-text">
           <p>${blogItem.preview}</p>
           <h3 onclick="OpenFull(${blogItem.id})">Read More</h3>
       </div>
-    </div>`;
+    </article>`;
     }).join("");
   
     textArea.innerHTML = CreateTextBlog;

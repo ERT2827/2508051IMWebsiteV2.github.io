@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
     <title>Design</title>
 
     <link rel="stylesheet" href="CSS\index.css">
@@ -48,11 +48,9 @@
         <span onclick="CloseFull()">X</span>
     </div>
 
-    <head>
-        <div class="page-Heading">
-            <h1>Design</h1>
-        </div>
-    </head>
+    <header class="page-Heading">
+        <h1>Design</h1>
+    </header>
 
     <span>
         <h3 class="heading">Summarize this website in a sentence?</h3>
@@ -70,19 +68,19 @@
         
         <h3 class="subheading">Design Process: </h3>
         <h4>Visual Design Elements:</h4>
-        <div class="designSubsection">
+        <section class="designSubsection">
             <p>For my website, I'm using a Google font known as Quicksand, which gives the site a professional feel while still keeping things light thanks to a solid line weight but a lack of sharp edges. The lack of sharp edges also aligns with the more rounded feel I want for the site. I increased the standard font size across the whole website, since I felt that the standard font is too small and hard to read, and is thus an accessibility issue. </p>
             <img src="images/Design/Palette.png" alt="Website Palette">
             <p>
                 For my color palette, I have two: A UI palette, which consists of whitesmoke, darkslategray, gray and black, and a page palette, which I use to break the site up into distinctive blocks. This second palette consists of four colors: Aquamarine, Coral, Peachpuff and Lightskyblue. All of these colors are bright enough to give the site some vibrancy, but not so bright as to overwhelm the user. My primary inspiration for doing this was the Comp/Con companion app for the boardgame lancer, which is pictured above. Comp/Con is a bit more dynamic, but I liked the idea of using impactful colors to make the site pop more. I wanted to make something that is pleasent to look at, without being to minimal or maximal</p><p>
                 For the shapes used in my site, I generally stuck with rounded edges, since those make the site less aggressive and feel more personal with their friendlier feel. By doing this, the site can better serve as a portfolio that’s simply meant to be browsed through, rather than something formal that must be used purely to reach a goal and nothing more.
             </p>
-        </div>
+        </section>
             <h4>Implementation notes: </h4>
-        <div class="designSubsection"><p>Making this website was very much a learning experience for me. When I started it, I knew nothing about HTML. Now I know a little more, but I’m still learning. The first and most important thing I did learn, however, is to bring over my most important lesson from every other bit of code I’ve ever written: make it scalable. If you look closely at this site and get into the actual HTML of it, you will quickly find that I have reused a lot of CSS and code throughout the site. Because it makes no sense to redo everything every time, especially when you’re trying to make a coherent website with a consistent style. </p><p>
+        <section class="designSubsection"><p>Making this website was very much a learning experience for me. When I started it, I knew nothing about HTML. Now I know a little more, but I’m still learning. The first and most important thing I did learn, however, is to bring over my most important lesson from every other bit of code I’ve ever written: make it scalable. If you look closely at this site and get into the actual HTML of it, you will quickly find that I have reused a lot of CSS and code throughout the site. Because it makes no sense to redo everything every time, especially when you’re trying to make a coherent website with a consistent style. </p><p>
             Besides the more modular approach I started taking to the website about 1/8th of the way through, the other thing of note I did throughout this phase of the project is I made an awesome piece of code that automatically builds galleries for my pages, using the code from one of our weekly exercises as a starting point. Doing this may have been a little work to set up, but it now means I can very easily and concisely build my galleries in other areas of my site as I need to while just using one script. It’s also a good bit of future proofing, since if I were to ever plug this site into a proper database, I could very easily pull galleries from that in future, which is something I did on the advice of my father who works in IT.
         </p><p>Moving into the second assignment, I've practically been a different designer. I've learnt a lot more about what HTML, JS and CSS can and can't do (not that there's anything they can't do, moresoe they aren't great at everything) and more importantly I've become willing to learn from sources outside of Wits. MDN web docs have been hugely useful for this, but in general I've vastly expaned my range of sources to deepen my learning and to allow me to build a faster, prettier and -most importantly- more responsive website that functions as intended on a range of devices.</p>
-        </div>
+        </section>
             
         <h3 class="subheading">IXD Process: </h3>
         <h4>Goal Alignment: </h4>
@@ -90,17 +88,17 @@
             One thing I did put some focus into is the layout of content. The requirements for the site did give me a good starting point with that, but I still tried to lay my information out in a logical hierarchy to make the website easier to navigate. This also helps the user to know what information of mine is the most important, which should let them understand my intentions as the creator a little better.
             </p>
         <h4>Information structure: </h4>
-        <div class="designSubsection">
+        <section class="designSubsection">
             <img src="images/Design/Sitemap.jpg" alt="Site mapping illustration">
             <p>As mentioned before, I put a focus into this area. A big item of focus for me was my top bar. I wanted to follow a three click rule, which means that any area of my site should either be accessible from the top bar or from a page included in the top bar. This rule helped me to design a website that I think is easy to use, as well as responsive.
             </p>
-        </div>
+        </section>
         <h4>User Flow:</h4>
-        <div class="designSubsection">
+        <section class="designSubsection">
             <p>An area that’s a little weird for me to map. On the one hand, my website has been designed for easy navigation. On the other hand, there is little to no actual user interaction on my site currently beyond navigation, since I have very little need for fun features or complex product pages at this point in the process of making the site. </p><p>
                 That said, I’ve still made a basic diagram to map out my user flow (and to prove that my site follows the three click rule), which can be found at the gallery at the bottom of this page.
             </p>
-        </div>
+        </section>
         
         <h4 class="font">Interface Elements:</h4>
         <p>Currently, the only interface elements I have on this site are buttons and the occasional link. These all follow a standardized style I set based on my top bar, with specific attention being given to make sure everything gives proper user feedback when they interact with said elements. One particularly conscientious decision I made when it comes to interface elements is giving the links to albums on the profile page an effect to let the user know they’re interactive, because otherwise it may be easy to miss them. I have also added a "return to top" function since the first assignment, which irons out a few more wrinkles in the process of navigating the site.

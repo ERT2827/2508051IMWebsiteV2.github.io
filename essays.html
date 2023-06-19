@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
     <title>Essays</title>
 
     <link rel="stylesheet" href="CSS\style.css">
@@ -38,21 +38,21 @@
         </nav>
     </aside>
 
-    <div class="page-Heading">
-        <h1>Essays</h1>
-    </div>
-
     <div class="full-Text" id="fullTextBox">
         <div id="fullText" class="fullTextDisplay">Help me</div>
         <span onclick="CloseFull()">X</span>
     </div>
+
+    <header class="page-Heading">
+            <h1>Essays</h1>
+    </header>
 
     <!-- essay Section -->
 
     
     <section id="texts">
 
-        <div class="essay-container">
+        <article class="essay-container">
 
             <div class="essay-box">
                 <div class="essay-img">
@@ -66,9 +66,9 @@
                 <h3 onclick="Openfull(1)">Read more</h3>
             </div>
 
-        </div>
+        </article>
 
-        <div class="essay-container">
+        <article class="essay-container">
 
             <div class="essay-box">
                 <div class="essay-img">
@@ -82,7 +82,7 @@
                 <a href="#">Read More</a>
             </div>
 
-        </div>
+        </article>
     </section>
 
     <footer class="foote">

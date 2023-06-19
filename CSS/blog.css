@@ -99,6 +99,15 @@
     background-color: lightskyblue;
 }
 
+@media(max-width:650px){
+    .post-heading{
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+
 /* @media(max-width:1250px){
     .essay-box{
         width: 300px;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
     <title>Portfolio</title>
 
     <link rel="stylesheet" href="CSS\index.css">
@@ -48,42 +48,43 @@
         <span onclick="CloseFull()">X</span>
     </div>
 
-    <head>
-        <div class="page-Heading">
-            <h1>Portfolio</h1>
-        </div>
-    </head>
+    <header class="page-Heading">
+        <h1>Portfolio</h1>
+    </header>
 
     <span><h1 class="heading">Behold, a man! </h1></span>
         <span><p>The following is a portfolio of my work, with a few examples and a sick gallery at the bottom.</p>
             <p>if you want a bit more information about me as a person, click this button:</p>
-            <form action="profile.html"><button class="portfoliobutton" type="submit">Here's all about me!</button></form>
+            <div class="sillyGuy">
+                <form action="profile.html"><button class="portfoliobutton" type="submit">Here's all about me!</button></form>
+            </div>
+            
             <p>otherwise, let's get talking about all my cool stuff!</p>
 
-            <div class="portfoliobox coralback">
+            <section class="portfoliobox coralback">
                 <div class="portfolioBoxItem">
                     <h2 >Skidibopimbop</h2>
                     <p>This was originally a placeholder, but to be honest I've grown too emotionally attatched to it to get rid of it now. Love you Vin.</p>
                 </div>
                 <img src="images\Vincent.png" alt="" class="portfolioBoxItem">
-            </div>
-            <div class="portfoliobox greenback">
+            </section>
+            <section class="portfoliobox greenback">
                 <img src="images\Missile.jpg" alt="" class="portfolioBoxItem">
                 <div class="portfolioBoxItem">
                     <h2>The Missile!: </h2>
                     <p>This web page is the first code I ever wrote down for this website. It's obviously super rough, but I wanted to preserve it for the sake of history. Plus, it makes a great portfolio piece.</p>
                     <form action="Missile.html"><button class="portfoliobutton" type="submit">Finally, where the missile is.</button></form>
                 </div>
-            </div>
-            <div class="portfoliobox flamingoback">
+            </section>
+            <section class="portfoliobox flamingoback">
                 <div class="portfolioBoxItem">
                     <h2>Week 3 excercise: </h2>
                     <p>My first attempt at our excercises, this one was purely focused on getting it done. Nothing more, nothing less.</p>
                     <form action="Excercises\week3excercises.html"><button class="portfoliobutton" type="submit">Check out Week 3.</button></form>
                 </div>
                 <img src="images\sunrise-cover.jpg" alt="" class="portfolioBoxItem">
-            </div>
-            <div class="portfoliobox blueback">
+            </section>
+            <section class="portfoliobox blueback">
                 <img src="images\Thumbnails\Excercise2.png" alt="" class="portfolioBoxItem">
                 <div class="portfolioBoxItem">
                     <h2>Week 4 excercise: </h2>
@@ -91,26 +92,26 @@
                     <form action="Excercises\Week4Excercises.html"><button class="portfoliobutton" type="submit">Check out Week 4.</button></form>
                 </div>
             </div>
-            <div class="portfoliobox coralback">
+            <section class="portfoliobox coralback">
                 <div class="portfolioBoxItem">
                     <h2>Week 5 excercise: </h2>
                     <p>A slightly more advanced Javascript excercise. Still lacks CSS, but certainly has a kind of charm to it.</p>
                     <form action="Excercises\week5Excercises.html"><button class="portfoliobutton" type="submit">Check out Week 5.</button></form>
                 </div>
                 <img src="images\Thumbnails\Excercise3.png" alt="" class="portfolioBoxItem">
-            </div>
-            <div class="portfoliobox greenback">
+            </section>
+            <section class="portfoliobox greenback">
                 <img src="images\Thumbnails\Excercise4.png" alt="" class="portfolioBoxItem">
                 <div class="portfolioBoxItem">
                     <h2>Week 6: </h2>
                     <p>The mostly finished Menu excercise since we ran out of time in class for this one. Once again, Andre provided the code for this.</p>
                     <form action="Menu Exercise\Week6ex2.html"><button class="portfoliobutton" type="submit">Check out Week 6.</button></form>
                 </div>
-            </div>
+            </section>
         </span>
         <span>
             <h3 class="heading">GALLERY: </h3>
-            <div class="image-Gallery"></div>
+            <section class="image-Gallery"></section>
         </span>
 
         <footer class="foote">
