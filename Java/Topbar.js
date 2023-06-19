@@ -44,6 +44,7 @@ const sideBarArea = document.getElementById("sideChick");
 displaySideBar(pageLinks);
 
 function displaySideBar(pageses) {
+    console.log("Bornana");
     let displaySideBar = pageses.map(function (pageses){
         return `<li><a href="${pageses.location}">${pageses.text}</a></li>`;
       }).join(" ");
@@ -54,17 +55,17 @@ function displaySideBar(pageses) {
 //footer (this function is currently unused until I update my 
 //footer design)
 
-const footerArea = document.getElementById("Mort");
+// const footerArea = document.getElementById("Mort");
 
-DisplayFooter(pageLinks);
+// DisplayFooter(pageLinks);
 
-function DisplayFooter(pageses) {
-    var displaySideBar = pageses.map(function (pageses){
-        return ``;
-      }).join(" ");
+// function DisplayFooter(pageses) {
+//     var displaySideBar = pageses.map(function (pageses){
+//         return ``;
+//       }).join(" ");
 
-      sideBarArea.innerHTML = displaySideBar;
-}
+//       sideBarArea.innerHTML = displaySideBar;
+// }
 
 // Back to top functionality
 
