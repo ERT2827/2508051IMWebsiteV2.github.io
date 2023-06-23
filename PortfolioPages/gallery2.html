@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery Version 2</title>
 
-    <link rel="stylesheet" href="CSS\style.css">
-    <link rel="stylesheet" href="CSS\gallery2.css">
+    <link rel="stylesheet" href="../CSS\style.css">
+    <link rel="stylesheet" href="../CSS\gallery2.css">
 
-    <link rel="shortcut icon" href="Images\Dye.png">
+    <link rel="shortcut icon" href="Images\Logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -17,27 +17,7 @@
 </head>
 <body>
 
-    <header>
-        <div class="wrapper">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images\Dye.png" alt="Logo">
-                </a>
-            </div>
-            <ul class="nav-area">
-                
-            </ul>
-        </div>
-    </header>
-    
-    <label class="HamMenu">
-        <input type="checkbox">
-    </label>
-    
-    <aside class="sidebar">
-        <nav id="sideChick">
-        </nav>
-    </aside>
+    <form action="../portfolio.html"><button class="portfolioPageBack" type="submit">Back</button></form>
 
     <div class="full-Image" id="fullIMGBox">
         <img src="Images/Festive.jpg" alt="" id="fullIMG">
@@ -45,17 +25,16 @@
         <span onclick="CloseFull()">X</span>
     </div>
     
-    <div class="image-gallery">
-        <img src="Images/Dye.png" alt="" onclick="OpenFull(this.src)">
-        <img src="Images/Page 3.jpg" alt="" onclick="OpenFull(this.src)">
-        <img src="Images/Festive.jpg" alt="" onclick="OpenFull(this.src)">
+    <div class="image-Gallery">
+        <img src="../Images/Dye.png" alt="" onclick="OpenFull(this.src)">
+        <img src="../Images/Page 3.jpg" alt="" onclick="OpenFull(this.src)">
+        <img src="../Images/Festive.jpg" alt="" onclick="OpenFull(this.src)">
         
     </div>
 
 
-    <script src="Java\Topbar.js"></script>
-    <script src="Java/gallerizerMK2.js">
-    </script>
+    <!-- <script src="Java\Topbar.js"></script> -->
+    <script src="../Java/gallerizerMK2.js"></script>
 
     
 </body>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <title>SearchTest</title>
+
+
+    <link rel="stylesheet" href="../CSS\style.css">
+    <link rel="stylesheet" href="../CSS\blog.css">
+    <link rel="stylesheet" href="../CSS/search.css">
+
+    <!-- <link rel="shortcut icon" href="images\Logo.png"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form action="../portfolio.html"><button class="portfolioPageBack" type="submit">Back</button></form>
+
+    
+    <form action="" class="searchBarContainer">
+        <input id="searchR" type="text" placeholder="Enter text" onblur="getVal(); filterSelection()" class="searchBar">
+        <span class="searchClear" id="searchClear">X</span>
+    </form>
+    
+    <!-- Control buttons -->
+  
+  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+  <div class="container">
+    <div class="filterDiv cars">BMW</div>
+    <div class="filterDiv colors fruits">Orange</div>
+    <div class="filterDiv cars">Volvo</div>
+    <div class="filterDiv colors">Red</div>
+    <div class="filterDiv cars">Ford</div>
+    <div class="filterDiv colors">Blue</div>
+    <div class="filterDiv animals">Cat</div>
+    <div class="filterDiv animals">Dog</div>
+    <div class="filterDiv fruits">Melon</div>
+    <div class="filterDiv fruits animals">Kiwi</div>
+    <div class="filterDiv fruits">Banana</div>
+    <div class="filterDiv fruits">Lemon</div>
+    <div class="filterDiv animals">Cow</div>
+  </div> 
+
+
+    <!-- <script src="../Java\Topbar.js"></script> -->
+    <!-- <script src="../Java/TextOpener.js"></script> -->
+    <script src="../Java/searcher.js"></script>
+</body>
+</html>

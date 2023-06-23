@@ -1,4 +1,4 @@
-.fillscreen{
+.fillScreen{
     height: 100vh;
     width: 100vw;
 
@@ -8,7 +8,7 @@
     left: 0;
 }
 
-.fillscreen img{
+.fillScreen img{
     height: 100%;
     width: 100%;
     object-fit: cover;    
@@ -42,7 +42,7 @@ margin-left: 0px;
 z-index: 2;
 }
 
-.centerbox{
+.centerBox{
     width: 500px;
     height: 250px;
 
@@ -69,7 +69,7 @@ z-index: 2;
     padding-left: 2rem;
 }
 
-.subheading{
+.subHeading{
     font-size: 2.4rem;
     padding-top: 8vh;
 }
@@ -108,15 +108,7 @@ p {
     width: fit-content;
 }
 
-.floatleft{
-    float: left;
-}
-
-.floatright{
-    float: right;
-}
-
-.portfoliobox{
+.portfolioBox{
     height: 60vh;
     width: 100vw;
     text-align: center;
@@ -133,7 +125,7 @@ p {
 }
 
 
-.portfoliobutton{
+.portfolioButton{
     border: 1px solid black;
     background-color: whitesmoke;
     color: darkslategray;
@@ -148,28 +140,28 @@ p {
     margin-top: 1rem;
 }
 
-.portfoliobutton:hover{
+.portfolioButton:hover{
     background-color: gray;
     color: black;
     transition: all ease 0.2s;
 }
 
-.portfoliobutton:active{
+.portfolioButton:active{
     background-color: black;
     color: gray;
 }
 
-.Albumart{
+.albumArt{
     width: 300px;
     height: 300px;
 }
 
-.Albumart:hover{
+.albumArt:hover{
     border: 5px solid antiquewhite;
     transition: all ease 0.2s;
 }
 
-.homescreen{
+.homeScreen{
     padding-left: 35%;
     padding-right: 35%;
     font-size: larger;
@@ -179,20 +171,43 @@ p {
     font-style: italic;
 }
 
-.greenback{
+.greenBack{
     background-color: aquamarine;
 }
 
-.coralback{
+.coralBack{
     background-color: coral;
 }
-.flamingoback{
+.flamingoBack{
     background-color: peachpuff;
 }
 
-.blueback{
+.blueBack{
     background-color: lightskyblue;
 }
+
+.designList ul{
+    list-style: inside;
+}
+
+.designList li{
+    font-size: 1.2rem;
+    padding: 1rem 6.5rem;
+}
+
+.designList p{
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.fontSample{
+    font-size: 4.5rem;
+    text-align: center;
+    padding: 0 1.6rem;
+}
+
+/* 
+Depreciated function
 
 .topnav {
     background-color: whitesmoke;
@@ -222,28 +237,23 @@ p {
 .topnav a:active{
     background-color: black;
     color: whitesmoke;
-}
+} */
 
 .gallery{
     border: 0px;
 }
 
-.galleryitem{
+.galleryItem{
     margin: 50px 4vw;
     float: left;
     width: 250px;
     height: 250px;
 }
 
-.galleryitem img{
+.galleryItem img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.gallerydesc{
-    padding: 25px;
-    text-align: center;
 }
 
 .designImage{
@@ -303,7 +313,7 @@ p {
         margin-top: 1rem;
         margin-left: 0;
     }
-    .portfoliobox{
+    .portfolioBox{
         display: flex;
         flex-direction: column;
         grid-template-columns: auto;
@@ -316,7 +326,7 @@ p {
 }
 
 @media(max-width:650px){
-    .homescreen{
+    .homeScreen{
         padding: 0 5%;
     }
 
@@ -328,7 +338,7 @@ p {
         margin-left: 2.5vw;
     }
 
-    .portfoliobox{
+    .portfolioBox{
         width: 100vw;
     }
 
@@ -357,7 +367,7 @@ p {
     }
 
     
-    .subheading{
+    .subHeading{
         font-size: 2.6rem;
         padding-top: 8vh;
     }
@@ -377,7 +387,7 @@ p {
         font-size: 1.6rem;
     }
 
-    .portfoliobutton{
+    .portfolioButton{
         font-size: 1.6rem;
         width: 80vw;
     }

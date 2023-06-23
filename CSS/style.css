@@ -32,19 +32,19 @@ body{
     z-index: 6;
 }
 
-.nav-area{
+.nav-Area{
     float: right;
     margin-top: 30px;
 }
-.nav-area li{
+.nav-Area li{
     display: inline-block;
 }
-.nav-area li a{
+.nav-Area li a{
     color: darkslategray;
     padding: 5px 20px;
     font-size: 1.6rem;
 }
-.nav-area li a:hover{
+.nav-Area li a:hover{
     color: grey;
     transition: all ease 0.2s;
 }
@@ -88,24 +88,24 @@ body{
     padding: 70px 0;
 }
 
-.foote-row{
+.foote-Row{
     display: inline-flex;
     flex-wrap: nowrap;
     flex-direction: column;
 }
 
-.foote-col{
+.foote-Col{
     width: 30%;
     padding: 0 15px;
 }
 
-.foote-col ul li a{
+.foote-Col ul li a{
     font-size: 1rem;
     color: darkslategray;
     margin-bottom: 10px;
     padding-top: 0.5px;
 }
-.foote-col a:hover{
+.foote-Col a:hover{
     color: gray;
     transition: all ease 0.2s;
 }
@@ -210,7 +210,7 @@ body{
     width: 0;
 }
 
-.sidebar {
+.sideBar {
     transition: translate var(--animation-timing);
     translate: -100%;
     padding: 0.5rem 1rem;
@@ -231,21 +231,46 @@ body{
     z-index: 5;
 }
 
-.HamMenu:has(input:checked) + .sidebar{
+.HamMenu:has(input:checked) + .sideBar{
     translate: 0;
 }
 
-.sidebar li{
+.sideBar li{
     display: inline-flex;
     flex-direction: column;
 }
-.sidebar li a{
+.sideBar li a{
     color: darkslategray;
     padding: 5px 20px;
     font-size: 1.2rem;
 }
-.sidebar li a:hover{
+.sideBar li a:hover{
     color: grey;
+    transition: all ease 0.2s;
+}
+
+.portfolioPageBack{
+    border: 1px solid black;
+    background-color: whitesmoke;
+    color: darkslategray;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    position: fixed;
+    top: 45px;
+    right: 38px;
+
+    margin-top: 1rem;
+}
+
+.portfolioPageBack:hover{
+    background-color: gray;
+    color: black;
     transition: all ease 0.2s;
 }
 

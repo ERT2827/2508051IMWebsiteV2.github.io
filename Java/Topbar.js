@@ -25,7 +25,7 @@ const pageLinks = [{
 }]
 
 
-const topBarArea = document.querySelector(".nav-area");
+const topBarArea = document.querySelector(".nav-Area");
 
 displayTopBar(pageLinks);
 
@@ -37,19 +37,19 @@ function displayTopBar(pageses){
     topBarArea.innerHTML = displayTopBar;
 }
 
-//sidebar
+//sideBar
 
 const sideBarArea = document.getElementById("sideChick");
 
-displaySideBar(pageLinks);
+displaysideBar(pageLinks);
 
-function displaySideBar(pageses) {
+function displaysideBar(pageses) {
     console.log("Bornana");
-    var displaySideBar = pageses.map(function (pageses){
+    var displaysideBar = pageses.map(function (pageses){
         return `<li><a href="${pageses.location}">${pageses.text}</a></li>`;
       }).join(" ");
 
-      sideBarArea.innerHTML = displaySideBar;
+      sideBarArea.innerHTML = displaysideBar;
 }
 
 //footer (this function is currently unused until I update my 
@@ -60,11 +60,11 @@ function displaySideBar(pageses) {
 // DisplayFooter(pageLinks);
 
 // function DisplayFooter(pageses) {
-//     var displaySideBar = pageses.map(function (pageses){
+//     var displaysideBar = pageses.map(function (pageses){
 //         return ``;
 //       }).join(" ");
 
-//       sideBarArea.innerHTML = displaySideBar;
+//       sideBarArea.innerHTML = displaysideBar;
 // }
 
 // Back to top functionality

@@ -1,4 +1,4 @@
-.grid-container {
+.grid-Container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 125px;
@@ -6,22 +6,27 @@
     padding: 20px;
 }
 
-.grid-item {
+.grid-Item {
     display: grid;
     align-items: center;
     justify-items: center;
     border: 2px solid darkslategray;
     border-radius: 3px;
-    }      
+    visibility: hidden;
+    }
+    
+.show{
+    visibility: visible;
+}
    
 
-.post-heading{
+.post-Heading{
     color: black;
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-.post-text p{
+.post-Text p{
     color: black;
     font-size: 1.1rem;
     display: -webkit-box;
@@ -33,14 +38,14 @@
     font-weight: 400;
 }
 
-.post-text h3{
+.post-Text h3{
     color: darkslategray;
     cursor: pointer;
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
 }
 
-.post-text h3:hover{
+.post-Text h3:hover{
     color: grey;
     transition: all ease 0.2s;
 }
@@ -84,48 +89,62 @@
     
 }
 
-.greenback{
+.greenBack{
     background-color: aquamarine;
 }
 
-.coralback{
+.coralBack{
     background-color: coral;
 }
-.flamingoback{
+.flamingoBack{
     background-color: peachpuff;
 }
 
-.blueback{
+.blueBack{
     background-color: lightskyblue;
 }
 
+.searchBarContainer{
+    visibility: visible;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    justify-content: center;
+    display: flex;
+}
+
+.searchBar{
+    width: 100%;
+    max-width: 500px;
+    background-color: whitesmoke;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.searchClear{
+    font-size: 1.4rem;
+    padding-left: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    color: black;
+}
+
+.searchClear:hover{
+    color: grey;
+    transition: all ease 0.2s;
+}
+
 @media(max-width:650px){
-    .post-heading{
+    .post-Heading{
         display: -webkit-box;
         -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
-}
 
-/* @media(max-width:1250px){
-    .essay-box{
-        width: 300px;
+    .searchBarContainer{
+        visibility: hidden;
     }
-}
 
-@media(max-width:1100px){
-    .essay-box{
-        width: 250px;
-    }
-}
 
-@media(max-width:550px){
-    .essay-box{
-        margin: 20px 10px;
-        width: 100%;
-    }
-    #essay{
-        padding: 20px;
-    }
-} */
+}

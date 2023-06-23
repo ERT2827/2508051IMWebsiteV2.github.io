@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="CSS\style.css">
     <link rel="stylesheet" href="CSS\blog.css">
 
-    <link rel="shortcut icon" href="images\Dye.png">
+    <link rel="shortcut icon" href="images\Logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -23,10 +23,10 @@
         <div class="wrapper">
             <div class="logo">
                 <a href="index.html">
-                    <img src="images\Dye.png" alt="Logo">
+                    <img src="images\Logo.png" alt="Logo">
                 </a>
             </div>
-            <ul class="nav-area">
+            <ul class="nav-Area">
                 
             </ul>
         </div>
@@ -36,7 +36,7 @@
         <input type="checkbox">
     </label>
     
-    <aside class="sidebar">
+    <aside class="sideBar">
         <nav id="sideChick">
         </nav>
     </aside>
@@ -50,45 +50,28 @@
         <span onclick="CloseFull()">X</span>
     </div>
 
+    <form action="" class="searchBarContainer">
+        <input id="searchR" type="text" placeholder="Type to filter, click anywhere to confirm" onblur="getVal(); filteredSelection()" class="searchBar">
+        <span class="searchClear" id="searchClear">X</span>
+    </form>
+
     <!-- Blog Section -->
     <section id="blog">
-        <section class="grid-container" id="texts">
-            <div class="grid-item">
-                <h2 class="post-heading">Week 1</h2>
-                <div class="post-text">
-                    <p>Uuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teehee</p>
-                    <a href="#">Read More</a>
-                </div>
-            </div>
-            <div class="grid-item">
-                <h2 class="post-heading">Week 2</h2>
-                <div class="post-text">
-                    <p>Uuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teehee</p>
-                    <a href="#">Read More</a>
-                </div>
-            </div>
-            <div class="grid-item">
-                <h2 class="post-heading">Week 3</h2>
-                <div class="post-text">
-                    <p>Uuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teeheeUuuuuh I did some silly little things this week teehee</p>
-                    <a href="#">Read More</a>
-                </div>
-            </div>
-        </section>
-        
-        <!-- <div class="grid-item">
-            <h2 class="post-heading">Week 1</h2>
-            <div class="post-text">
+        <section class="grid-Container" id="texts">
+           <!-- <div class="grid-Item">
+            <h2 class="post-Heading">Week 1</h2>
+            <div class="post-Text">
                 <p>Uuuuuh I did some silly little things this week teehee</p>
                 <a href="#">Read More</a>
             </div>
-        </div> -->
+            </div> --> 
+        </section>  
     </section>
 
     <footer class="foote">
         <div class="footeContainer">
-            <div class="foote-row">
-                <div class="foote-col">
+            <div class="foote-Row">
+                <div class="foote-Col">
                     <h4>Usful Links</h4>
                     <ul>
                         <li id="Mort">
@@ -111,6 +94,7 @@
 
     <script src="Java\Topbar.js"></script>
     <script src="Java/TextOpener.js"></script>
+    <script src="Java/searcher.js"></script>
     
 </body>
 </html>
