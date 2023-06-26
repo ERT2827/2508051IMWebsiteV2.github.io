@@ -81,6 +81,41 @@ const portfolioIMG = [
         img: "images/Portfolio/Fourtown.jpg",
         desc: `This is an updated version of the DnD party drawing that I did for item 11. `,
         alt: "A drawing of several fantasy characters together."
+    },{
+        id: 17,
+        img: "images/Portfolio/ANTKY.jpg",
+        desc: `A poster for a game/writing idea I had. `,
+        alt: "A drawing of three people standing together."
+    },{
+        id: 18,
+        img: "images/Portfolio/Boss2.png",
+        desc: `The Final boss of Planefinite, in all her glory. `,
+        alt: "An aircraft with an orange wing."
+    },{
+        id: 19,
+        img: "images/Portfolio/Chandelier.jpg",
+        desc: `A gigantic construct that my DnD party fight. `,
+        alt: "A creation of sheer malice."
+    },{
+        id: 20,
+        img: "images/Portfolio/Comic 5.jpg",
+        desc: `A comic from one of my response papers. `,
+        alt: "A person sitting on a hill."
+    },{
+        id: 21,
+        img: "images/Portfolio/Comic2.jpg",
+        desc: `Another comic from one of my response papers. `,
+        alt: "Two people in a car."
+    },{
+        id: 22,
+        img: "images/Portfolio/NYMAPart2.jpg",
+        desc: `Some character designs from an idea for a slice of life show about magicians. `,
+        alt: "Three people with interesting outfits."
+    },{
+        id: 23,
+        img: "images/Portfolio/Oz.jpg",
+        desc: `This is a scene from an assassin show I sketched up. I am personally rather proud of it. `,
+        alt: "An angry, blood soaked person."
     },]
 
 const designIMG = [
